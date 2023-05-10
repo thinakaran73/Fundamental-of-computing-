@@ -1,0 +1,8 @@
+#shell program to multiply two numbers using expr
+
+num1=10
+num2=20
+
+ans=`expr $num1 \* $num2`
+
+echo $ans
