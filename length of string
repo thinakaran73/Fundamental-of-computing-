@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main() {
+char a[20];
+printf("enter the string :");
+scanf("%s",&a);
+printf("the length of string  %d",strlen(a));
+return 0;
+}
