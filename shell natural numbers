@@ -1,0 +1,13 @@
+#! /bin/bash
+# Author : Sounak Pal
+#website : cs.sounak.in
+## Script to add first n numbers
+echo "Enter the number of N"
+read n
+sum=0
+for (( i=0; i<=n; i++ ))
+   do
+      sum=$((sum + I))
+   done
+echo -e "The sum of first N number is \t $sum"
+ 
