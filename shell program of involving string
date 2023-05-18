@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Prompt the user to enter a string
+echo "Enter a string:"
+read input_string
+
+# Print the length of the string
+string_length=${#input_string}
+echo "Length of the string: $string_length"
+
+# Convert the string to uppercase
+uppercase_string=${input_string^^}
+echo "Uppercase string: $uppercase_string"
+
+# Convert the string to lowercase
+lowercase_string=${input_string,,}
+echo "Lowercase string: $lowercase_string"
+
+# Check if the string is empty
+if [ -z "$input_string" ]; then
+  echo "The string is empty."
+else
+  echo "The string is not empty."
+fi
+
+# Check if the string contains a specific substring
+echo "Enter a substring to search for:"
+read substring
+
+if [[ $input_string == *"$substring"* ]]; then
+  echo "The string contains the substring."
+else
+  echo "The string does not contain the substring."
+fi
