@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Prompt the user to enter a string
+echo "Enter a string:"
+read input_string
+
+# Calculate the length of the string
+string_length=${#input_string}
+
+# Print the length of the string
+echo "Length of the string: $string_length"
