@@ -15,4 +15,4 @@ echo "$b is greater"
 elif [ $c -gt $a ] && [ $c -gt $b ]
 then
 echo "$c is greater"
-f
+fi
